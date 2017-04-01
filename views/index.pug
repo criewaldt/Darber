@@ -1,0 +1,395 @@
+html(lang='en')
+	head
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		meta(name='description', content='Exchange Street Barber - Charleston, SC. Mens cuts, style, shave, nose wax, scalp massage, & more.')
+		meta(name='author', content='Chris Riewaldt')
+		title Exchange Street Barber - Charleston SC
+		// Bootstrap Core CSS
+		link(href='css/bootstrap.min.css', rel='stylesheet')
+		// Custom Fonts
+		link(href='vendor/font-awesome/css/font-awesome.min.css', rel='stylesheet', type='text/css')
+		link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
+		link(href='https://fonts.googleapis.com/css?family=Kaushan+Script', rel='stylesheet', type='text/css')
+		link(href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic', rel='stylesheet', type='text/css')
+		link(href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700', rel='stylesheet', type='text/css')
+		// Theme CSS
+		link(href='css/agency.css', rel='stylesheet')
+		// HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+		// WARNING: Respond.js doesn't work if you view the page via file://
+		//if lt IE 9
+		script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js', integrity='sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY', crossorigin='anonymous')
+		script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js', integrity='sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo', crossorigin='anonymous')
+	body.index(id="page-top")
+		// Navigation
+		nav.navbar.navbar-default.navbar-custom.navbar-fixed-top(id="mainNav")
+			div.container
+				// Brand and toggle get grouped for better mobile display
+				div.navbar-header.page-scroll
+					button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+						span.sr-only Toggle navigation
+						|  Menu 
+						i.fa.fa-bars
+					a.navbar-brand.page-scroll(href='#page-top') E.S.B.
+				// Collect the nav links, forms, and other content for toggling
+				div.collapse.navbar-collapse(id="bs-example-navbar-collapse-1")
+					ul.nav.navbar-nav.navbar-right
+						li.hidden
+							a(href='#page-top')
+						li
+							a.page-scroll(href='#services') Services
+						li
+							a.page-scroll(href='#portfolio') Portfolio
+						li
+							a.page-scroll(href='#about') About
+						li
+							a.page-scroll(href='#team') Team
+				// /.navbar-collapse
+			// /.container-fluid
+		// Header
+		header
+			div.container
+				div.intro-text
+					div.intro-lead-in Welcome To Our Studio!
+					div.intro-heading It's Nice To Meet You
+					a.page-scroll.btn.btn-xl(href='#services') Tell Me More
+		// Services Section
+		section(id="services")
+			div.container
+				div.row
+					div.col-lg-12.text-center
+						h2.section-heading Services
+						h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+				div.row.text-center
+					div.col-md-4
+						span.fa-stack.fa-4x
+							i.fa.fa-circle.fa-stack-2x.text-primary
+							i.fa.fa-shopping-cart.fa-stack-1x.fa-inverse
+						h4.service-heading E-Commerce
+						p.text-muted
+							| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+					div.col-md-4
+						span.fa-stack.fa-4x
+							i.fa.fa-circle.fa-stack-2x.text-primary
+							i.fa.fa-laptop.fa-stack-1x.fa-inverse
+						h4.service-heading Responsive Design
+						p.text-muted
+							| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+					.col-md-4
+						span.fa-stack.fa-4x
+							i.fa.fa-circle.fa-stack-2x.text-primary
+							i.fa.fa-lock.fa-stack-1x.fa-inverse
+						h4.service-heading Web Security
+						p.text-muted
+							| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+		// Portfolio Grid Section
+		section.bg-light-gray(id="portfolio")
+			div.container
+				div.row
+					div.col-lg-12.text-center
+						h2.section-heading Portfolio
+						h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+				div.row
+					div.col-md-4.col-sm-6.portfolio-item
+						a.portfolio-link(href='#portfolioModal1', data-toggle='modal')
+							div.portfolio-hover
+								div.portfolio-hover-content
+									i.fa.fa-plus.fa-3x
+							img.img-responsive(src='img/portfolio/roundicons.png', alt='')
+						div.portfolio-caption
+							h4 Round Icons
+							p.text-muted Graphic Design
+					div.col-md-4.col-sm-6.portfolio-item
+						a.portfolio-link(href='#portfolioModal2', data-toggle='modal')
+							div.portfolio-hover
+								div.portfolio-hover-content
+									i.fa.fa-plus.fa-3x
+							img.img-responsive(src='img/portfolio/startup-framework.png', alt='')
+						div.portfolio-caption
+							h4 Startup Framework
+							p.text-muted Website Design
+					div.col-md-4.col-sm-6.portfolio-item
+						a.portfolio-link(href='#portfolioModal3', data-toggle='modal')
+							div.portfolio-hover
+								div.portfolio-hover-content
+									i.fa.fa-plus.fa-3x
+							img.img-responsive(src='img/portfolio/treehouse.png', alt='')
+						div.portfolio-caption
+							h4 Treehouse
+							p.text-muted Website Design
+					div.col-md-4.col-sm-6.portfolio-item
+						a.portfolio-link(href='#portfolioModal4', data-toggle='modal')
+							div.portfolio-hover
+								div.portfolio-hover-content
+									i.fa.fa-plus.fa-3x
+							img.img-responsive(src='img/portfolio/golden.png', alt='')
+						div.portfolio-caption
+							h4 Golden
+							p.text-muted Website Design
+					div.col-md-4.col-sm-6.portfolio-item
+						a.portfolio-link(href='#portfolioModal5', data-toggle='modal')
+							div.portfolio-hover
+								div.portfolio-hover-content
+									i.fa.fa-plus.fa-3x
+							img.img-responsive(src='img/portfolio/escape.png', alt='')
+						div.portfolio-caption
+							h4 Escape
+							p.text-muted Website Design
+					div.col-md-4.col-sm-6.portfolio-item
+						a.portfolio-link(href='#portfolioModal6', data-toggle='modal')
+							div.portfolio-hover
+								div.portfolio-hover-content
+									i.fa.fa-plus.fa-3x
+							img.img-responsive(src='img/portfolio/dreams.png', alt='')
+						div.portfolio-caption
+							h4 Dreams
+							p.text-muted Website Design
+		// About Section
+		section(id="about")
+			div.container
+				div.row
+					div.col-lg-12.text-center
+						h2.section-heading About
+						h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+				div.row
+					div.col-lg-12
+						ul.timeline
+							li
+								div.timeline-image
+									img.img-circle.img-responsive(src='img/about/1.jpg', alt='')
+								div.timeline-panel
+									div.timeline-heading
+										h4 2009-2011
+										h4.subheading Our Humble Beginnings
+									div.timeline-body
+										p.text-muted
+											| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+							li.timeline-inverted
+								div.timeline-image
+									img.img-circle.img-responsive(src='img/about/2.jpg', alt='')
+								div.timeline-panel
+									div.timeline-heading
+										h4 March 2011
+										h4.subheading An Agency is Born
+									div.timeline-body
+										p.text-muted
+											| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+							li
+								div.timeline-image
+									img.img-circle.img-responsive(src='img/about/3.jpg', alt='')
+								div.timeline-panel
+									div.timeline-heading
+										h4 December 2012
+										h4.subheading Transition to Full Service
+									div.timeline-body
+										p.text-muted
+											| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+							li.timeline-inverted
+								div.timeline-image
+									img.img-circle.img-responsive(src='img/about/4.jpg', alt='')
+								div.timeline-panel
+									div.timeline-heading
+										h4 July 2014
+										h4.subheading Phase Two Expansion
+									div.timeline-body
+										p.text-muted
+											| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+							li.timeline-inverted
+								div.timeline-image
+									h4
+										| Be Part
+										br
+										| Of Our
+										br
+										| Story!
+		// Team Section
+		section.bg-light-gray(id="team")
+			div.container
+				div.row
+					div.col-lg-12.text-center
+						h2.section-heading Our Amazing Team
+						h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+				div.row
+					div.col-sm-4
+						div.team-member
+							img.img-responsive.img-circle(src='img/team/1.jpg', alt='')
+							h4 Kay Garland
+							p.text-muted Lead Designer
+							ul.list-inline.social-buttons
+								li
+									a(href='#')
+										i.fa.fa-twitter
+								li
+									a(href='#')
+										i.fa.fa-facebook
+								li
+									a(href='#')
+										i.fa.fa-linkedin
+					div.col-sm-4
+						div.team-member
+							img.img-responsive.img-circle(src='img/team/2.jpg', alt='')
+							h4 Larry Parker
+							p.text-muted Lead Marketer
+							ul.list-inline.social-buttons
+								li
+									a(href='#')
+										i.fa.fa-twitter
+								li
+									a(href='#')
+										i.fa.fa-facebook
+								li
+									a(href='#')
+										i.fa.fa-linkedin
+					div.col-sm-4
+						div.team-member
+							img.img-responsive.img-circle(src='img/team/3.jpg', alt='')
+							h4 Diana Pertersen
+							p.text-muted Lead Developer
+							ul.list-inline.social-buttons
+								li
+									a(href='#')
+										i.fa.fa-twitter
+								li
+									a(href='#')
+										i.fa.fa-facebook
+								li
+									a(href='#')
+										i.fa.fa-linkedin
+				div.row
+					div.col-lg-8.col-lg-offset-2.text-center
+						p.large.text-muted
+							| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+		// Clients Aside
+		aside.clients
+			div.container
+				div.row
+					div.col-md-3.col-sm-6
+						a(href='#')
+							img.img-responsive.img-centered(src='img/logos/envato.jpg', alt='')
+					div.col-md-3.col-sm-6
+						a(href='#')
+							img.img-responsive.img-centered(src='img/logos/designmodo.jpg', alt='')
+					div.col-md-3.col-sm-6
+						a(href='#')
+							img.img-responsive.img-centered(src='img/logos/themeforest.jpg', alt='')
+					div.col-md-3.col-sm-6
+						a(href='#')
+							img.img-responsive.img-centered(src='img/logos/creative-market.jpg', alt='')
+		
+		footer
+			div.container
+				div.row
+					div.col-md-4
+						span.copyright Copyright © Your Website 2016
+					div.col-md-4
+						ul.list-inline.social-buttons
+							li
+								a(href='#')
+									i.fa.fa-twitter
+							li
+								a(href='#')
+									i.fa.fa-facebook
+							li
+								a(href='#')
+									i.fa.fa-linkedin
+					div.col-md-4
+						ul.list-inline.quicklinks
+							li
+								a(href='#') Privacy Policy
+							li
+								a(href='#') Terms of Use
+		// Portfolio Modals
+		// Use the modals below to showcase details about your portfolio projects!
+		// Portfolio Modal 1
+		div.portfolio-modal.modal.fade(id="portfolioModal1" tabindex='-1', role='dialog', aria-hidden='true')
+			div.modal-dialog
+				div.modal-content
+					div.close-modal(data-dismiss='modal')
+						div.lr
+							div.rl
+					div.container
+						div.row
+							div.col-lg-8.col-lg-offset-2
+								div.modal-body
+									// Project Details Go Here
+									h2 Project Name
+									p.item-intro.text-muted Lorem ipsum dolor sit amet consectetur.
+									img.img-responsive.img-centered(src='img/portfolio/roundicons-free.png', alt='')
+									p
+										| Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+									p
+										strong Want these icons in this portfolio item sample?
+										| You can download 60 of them for free, courtesy of 
+										a(href='https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc') RoundIcons.com
+										| , or you can purchase the 1500 icon set 
+										a(href='https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc') here
+										| .
+									ul.list-inline
+										li Date: July 2014
+										li Client: Round Icons
+										li Category: Graphic Design
+									button.btn.btn-primary(type='button', data-dismiss='modal')
+										i.fa.fa-times
+										|  Close Project
+		// Portfolio Modal 2
+		div.portfolio-modal.modal.fade(id="portfolioModal2" tabindex='-1', role='dialog', aria-hidden='true')
+			div.modal-dialog
+				div.modal-content
+					div.close-modal(data-dismiss='modal')
+						div.lr
+							div.rl
+					div.container
+						div.row
+							div.col-lg-8.col-lg-offset-2
+								div.modal-body
+									h2 Project Heading
+									p.item-intro.text-muted Lorem ipsum dolor sit amet consectetur.
+									img.img-responsive.img-centered(src='img/portfolio/startup-framework-preview.png', alt='')
+									p
+										a(href='http://designmodo.com/startup/?u=787') Startup Framework
+										|  is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.
+									p
+										| You can preview Startup Framework 
+										a(href='http://designmodo.com/startup/?u=787') here
+										| .
+									button.btn.btn-primary(type='button', data-dismiss='modal')
+										i.fa.fa-times
+										|  Close Project
+		// Portfolio Modal 3
+		div.portfolio-modal.modal.fade(id="portfolioModal3" tabindex='-1', role='dialog', aria-hidden='true')
+			div.modal-dialog
+				div.modal-content
+					div.close-modal(data-dismiss='modal')
+						div.lr
+							div.rl
+					div.container
+						div.row
+							div.col-lg-8.col-lg-offset-2
+								div.modal-body
+									// Project Details Go Here
+									h2 Project Name
+									p.item-intro.text-muted Lorem ipsum dolor sit amet consectetur.
+									img.img-responsive.img-centered(src='img/portfolio/treehouse-preview.png', alt='')
+									p
+										| Treehouse is a free PSD web template built by 
+										a(href='https://www.behance.net/MathavanJaya') Mathavan Jaya
+										| . This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.
+									p
+										| You can download the PSD template in this portfolio sample item at 
+										a(href='http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/') FreebiesXpress.com
+										| .
+									button.btn.btn-primary(type='button', data-dismiss='modal')
+										i.fa.fa-times
+										|  Close Project
+		
+		// jQuery
+		script(src='js/jquery.min.js')
+		// Bootstrap Core JavaScript
+		script(src='js/bootstrap.min.js')
+		// Plugin JavaScript
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js', integrity='sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb', crossorigin='anonymous')
+		// Contact Form JavaScript
+		script(src='js/jqBootstrapValidation.js')
+		// Theme JavaScript
+		script(src='js/agency.min.js')
