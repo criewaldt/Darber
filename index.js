@@ -24,7 +24,7 @@ app.get('/', function(req, res) {
 
 // 404 for any page that doesnt exist - This goes after all other views
 app.get('*', function(req, res){
-    res.status(301).redirect('index');
+    res.status(301).redirect('/');
 });
 
 
