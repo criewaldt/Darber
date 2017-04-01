@@ -1,7 +1,6 @@
 // Darber - index.js
 var app = require('express')();
 var express = require('express');
-var bodyParser = require('body-parser');
 var http = require('http').Server(app);
 var port = process.env.PORT || 3000;
 
@@ -12,10 +11,6 @@ app.set('view engine', 'pug');
 
 // Serve Static Files
 app.use(express.static(__dirname + '/public'));
-
-// Set encoding
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: true}));
 
 // index view
 app.get('/', function(req, res) {

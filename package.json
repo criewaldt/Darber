@@ -1,38 +1,28 @@
 {
-  "name": "nespr",
+  "name": "darber",
   "version": "1.0.0",
-  "description": "A barebones, session-ready stack for Heroku testing & whatever else... Built with: Node, Express, SocketIO, Postgres, Angular, and Redis - with Pug template engine. Local or Heroku-Redis session handling middleware included.",
-  "main": " index.js",
+  "description": "A website for ExchangeStreetBarber.com",
+  "main": "index.js",
   "scripts": {
     "start": "node index"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/criewaldt/nespr.git"
+    "url": "git+https://github.com/criewaldt/Darber.git"
   },
   "keywords": [
     "Node",
     "Express",
-    "SocketIO",
-    "Postgres",
-    "Redis",
-    "Pug",
-    "Heroku",
-    "Heroku-Redis"
+    "ExchangeStreetBarber"
   ],
   "author": "Chris Riewaldt",
-  "license": "UNLICENSED",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/criewaldt/nespr/issues"
+    "url": "https://github.com/criewaldt/Darber/issues"
   },
-  "homepage": "https://github.com/criewaldt/nespr#readme",
+  "homepage": "https://github.com/criewaldt/Darber#readme",
   "dependencies": {
-    "body-parser": "^1.17.1",
-    "connect-redis": "^3.2.0",
     "express": "^4.15.2",
-    "express-session": "^1.15.1",
-    "pg": "^6.1.4",
-    "pug": "^2.0.0-beta11",
-    "socket.io": "^1.7.3"
+    "pug": "^2.0.0-beta11"
   }
 }
