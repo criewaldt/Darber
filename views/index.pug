@@ -15,6 +15,7 @@ html(lang='en')
 		link(href='https://fonts.googleapis.com/css?family=Kaushan+Script', rel='stylesheet', type='text/css')
 		link(href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic', rel='stylesheet', type='text/css')
 		link(href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700', rel='stylesheet', type='text/css')
+		link(rel="stylesheet" type="text/css" href="css/flaticon.css")
 		// Theme CSS
 		link(href='css/agency.css', rel='stylesheet')
 		// HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
@@ -22,7 +23,7 @@ html(lang='en')
 		//if lt IE 9
 		//script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js', integrity='sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY', crossorigin='anonymous')
 		//script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js', integrity='sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo', crossorigin='anonymous')
-
+		
 	body.index(id="page-top")
 		// Navigation
 		nav.navbar.navbar-default.navbar-custom.navbar-fixed-top(id="mainNav")
@@ -33,16 +34,16 @@ html(lang='en')
 						span.sr-only Toggle navigation
 						|  Menu 
 						i.fa.fa-bars
-					a.navbar-brand.page-scroll(href='#page-top') E.S.B.
+					a.navbar-brand.page-scroll(href='#page-top') Exchange Street Barber
 				// Collect the nav links, forms, and other content for toggling
 				div.collapse.navbar-collapse(id="bs-example-navbar-collapse-1")
 					ul.nav.navbar-nav.navbar-right
 						li.hidden
 							a(href='#page-top')
 						li
-							a.page-scroll(href='#services') Services
+							a.page-scroll(href='#services') Menu
 						li
-							a.page-scroll(href='#portfolio') Portfolio
+							a.page-scroll(href='#portfolio') Book 24/7
 						li
 							a.page-scroll(href='#about') About
 						li
@@ -53,36 +54,61 @@ html(lang='en')
 		header
 			div.container
 				div.intro-text
-					div.intro-lead-in Welcome To Our Studio!
-					div.intro-heading It's Nice To Meet You
-					a.page-scroll.btn.btn-xl(href='#services') Tell Me More
+					div.intro-lead-in Exchange Street Barber
+					p 10 Exchange St. Charleston, SC
+					//div.intro-heading It's Nice To Meet You
+					//a.page-scroll.btn.btn-xl(href='#services') Tell Me More
+						
 		// Services Section
 		section(id="services")
 			div.container
 				div.row
 					div.col-lg-12.text-center
-						h2.section-heading Services
-						h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+						h2.section-heading Menu
+						h3.section-subheading.text-muted "Looking good leads to feeling good, and feeling good leads to empowerment." - Scott Barnes
 				div.row.text-center
 					div.col-md-4
 						span.fa-stack.fa-4x
 							i.fa.fa-circle.fa-stack-2x.text-primary
-							i.fa.fa-shopping-cart.fa-stack-1x.fa-inverse
-						h4.service-heading E-Commerce
+							i.flaticon-scissor-and-comb.fa-stack-1x
+						h4.service-heading Classic Haircut
+						p.text-muted
+							| Consult with shampoo, conditioning scalp massage, hot lather shave, and style.
+					div.col-md-4
+						span.fa-stack.fa-4x
+							i.fa.fa-circle.fa-stack-2x.text-primary
+							i.flaticon-razor-hair-salon-tool.fa-stack-1x
+						h4.service-heading Classic Straight Razor Shave
 						p.text-muted
 							| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
 					div.col-md-4
 						span.fa-stack.fa-4x
 							i.fa.fa-circle.fa-stack-2x.text-primary
-							i.fa.fa-laptop.fa-stack-1x.fa-inverse
-						h4.service-heading Responsive Design
+							i.flaticon-bald-man-head.fa-stack-1x
+						h4.service-heading Scalp Massage
+						p.text-muted
+							| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+				div.row.text-center
+					div.col-md-4
+						span.fa-stack.fa-4x
+							i.fa.fa-circle.fa-stack-2x.text-primary
+							//i.fa.fa-shopping-cart.fa-stack-1x.fa-inverse
+							i.flaticon-hair-salon-tube-black-container-shape-side-view.fa-stack-1x
+						h4.service-heading Color Service
+						p.text-muted
+							| Consult with shampoo, conditioning scalp massage, hot lather shave, and style
+					div.col-md-4
+						span.fa-stack.fa-4x
+							i.fa.fa-circle.fa-stack-2x.text-primary
+							i.flaticon-male-head-hair-and-beard.fa-stack-1x
+						h4.service-heading Beard Trim
 						p.text-muted
 							| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
 					.col-md-4
 						span.fa-stack.fa-4x
 							i.fa.fa-circle.fa-stack-2x.text-primary
-							i.fa.fa-lock.fa-stack-1x.fa-inverse
-						h4.service-heading Web Security
+							i.flaticon-shaver.fa-stack-1x
+						h4.service-heading Nose Hair Removal
 						p.text-muted
 							| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
 		// Portfolio Grid Section

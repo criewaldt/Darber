@@ -17,6 +17,10 @@ app.get('/', function(req, res) {
     res.render('index');
 });
 
+app.get('/test', function(req, res) {
+    res.render('test');    
+});
+
 // 404 for any page that doesnt exist - This goes after all other views
 app.get('*', function(req, res){
     res.status(301).redirect('/');
