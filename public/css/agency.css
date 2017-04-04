@@ -5,6 +5,7 @@
  */
 body {
   overflow-x: hidden;
+  height: 100%;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .fa {
@@ -211,7 +212,7 @@ fieldset[disabled] .btn-xl.active {
     border: none;
   }
   .navbar-custom .navbar-brand {
-    font-size: 2em;
+    font-size: 5em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -226,7 +227,7 @@ fieldset[disabled] .btn-xl.active {
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
-    font-size: 1.5em;
+    font-size: 3em;
   }
 }
 header {
