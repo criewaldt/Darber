@@ -158,6 +158,8 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-brand {
   color: #fed136;
   font-family:  "Helvetica Neue", Helvetica, Arial, cursive;
+  font-size: 2.25em;
+  margin: 2px;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -204,6 +206,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom {
+  
     background-color: transparent;
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
@@ -217,6 +220,7 @@ fieldset[disabled] .btn-xl.active {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
+  
   .navbar-custom .navbar-nav > .active > a {
     border-radius: 3px;
   }
